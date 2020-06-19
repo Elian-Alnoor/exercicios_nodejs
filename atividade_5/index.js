@@ -1,5 +1,5 @@
-// ## Importe a biblioteca ##
+let rs = require("readline-sync")
 
+let str = rs.question("digite alguma coisa ")
 
-
-// ## Faça o código ##
+console.log(str.length)
